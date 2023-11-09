@@ -297,9 +297,9 @@ img{
 .campo_field-textarea{
 	height: 20rem;
 }
-body-bg: #eee;
-canvas-bg: #fff;
-font1:Arial, sans-serif;
+$body-bg :  #eee;
+$canvas-bg: #fff;
+$font1 : Arial, sans-serif;
 
 body{
   background-color: body-bg;
