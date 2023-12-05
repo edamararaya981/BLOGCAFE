@@ -99,7 +99,7 @@
 //   }
 // }
 
-<script>
+{/* <script> */}
     //======================================================================
     // VARIABLES
     //======================================================================
@@ -198,4 +198,4 @@
     miCanvas.addEventListener('touchstart', empezarDibujo, false);
     miCanvas.addEventListener('touchmove', dibujarLinea, false);
 
-</script>
+// </script>
