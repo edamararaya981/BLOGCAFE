@@ -333,8 +333,8 @@ p{
 #grafica{
     /* width:300px;
     height: 400px; */
-	width:auto;
-    height: auto;
+	/* width:auto;
+    height: auto; */
     background-color: #f6f6f6;
     display: block;
     margin:0px auto;
