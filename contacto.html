@@ -54,12 +54,22 @@
 				<label class="campo_label" for="mensaje">Mensaje</label>
 				<textarea class="campo_field campo_field-textarea" name="mensaje" id="mensaje" required></textarea>
 			</div>
-			<div class="campo"> 
+			<style>
+				canvas {
+					width: 500px;
+					height: 500px;
+					background-color: #FFE4E1;
+			/*        #0D0909
+			*/    }
+			</style>
+			
+			<canvas id="pizarra"></canvas>
+			<!-- <div class="campo">  -->
 				<!-- <label class="campo_label" for="mensaje">Mensaje</label> -->
-				<p id="limpiar">Limpiar canvas</p>
-				<canvas class="campo_field campo_field-textarea" name="canvas" id="canvas" required></canvas>
 				<!-- <p id="limpiar">Limpiar canvas</p> -->
-			</div>
+				<!-- <canvas class="campo_field campo_field-textarea" name="canvas" id="canvas" required></canvas> -->
+				<!-- <p id="limpiar">Limpiar canvas</p> -->
+			<!-- </div> -->
 			<!-- <div class="campo"> -->
 				<!-- <canvas for="canvas" id="canvas" name="canvas" required>Su navegador no soporta canvas :</canvas> -->
 				<!-- <canvas for="canvas" id="grafica" name="canvas" required>Su navegador no soporta canvas :</canvas>
