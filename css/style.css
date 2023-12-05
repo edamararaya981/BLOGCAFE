@@ -333,10 +333,11 @@ p{
 #grafica{
     width:300px;
     height: 400px;
+	display: flex;
 	/* width:auto;
     height: auto; */
     background-color: #f6f6f6;
-    display: block;
+    /* display: block; */
     margin:0px auto;
 }
 @media screen and (min-width: 740px) {
